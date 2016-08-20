@@ -6,8 +6,8 @@
 
 // START Editing Project Variables.
 // Project related.
-var project                 = 'WPGulpTheme'; // Project Name.
-var projectURL              = 'alcalde.dev'; // Project URL. Could be something like localhost:8888.
+var project                 = 'WordPress Woocommerce'; // Project Name.
+var projectURL              = 'woo.dev'; // Project URL. Could be something like localhost:8888.
 var productURL              = './'; // Theme/Plugin URL. Leave it like it is, since our gulpfile.js lives in the root folder.
 
 // Style related.
@@ -244,7 +244,7 @@ gulp.task( 'images', function() {
         svgoPlugins: [{removeViewBox: false}]
     } ) )
     .pipe(gulp.dest( imagesDestination ))
-    .pipe( notify( { message: 'Tarea: "images" Completada! 💯', onLast: true } ) );
+    .pipe( notify( { message: 'TAREA: "images" Completada! 💯', onLast: true } ) );
 });
 
 /**
